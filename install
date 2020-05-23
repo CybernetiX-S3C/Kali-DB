@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo cp kali-db /usr/bin/
+sleep 1
+touch /usr/bin/kali-db
+echo "Kali DB has been installed."
+sleep 1
+echo "To use this tool just type: kali-db"

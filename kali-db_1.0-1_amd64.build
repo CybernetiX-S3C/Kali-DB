@@ -1,0 +1,4 @@
+ dpkg-buildpackage -us -uc -ui --no-lintian
+dpkg-buildpackage: error: unknown option or argument --no-lintian
+
+Use --help for program usage information.
