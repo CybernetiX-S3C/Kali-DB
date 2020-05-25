@@ -20,12 +20,12 @@ manpage.1: manpage.sgml
   <!ENTITY dhfirstname "<firstname>FIRSTNAME</firstname>">
   <!ENTITY dhsurname   "<surname>SURNAME</surname>">
   <!-- Please adjust the date whenever revising the manpage. -->
-  <!ENTITY dhdate      "<date>May 23 2020</date>">
+  <!ENTITY dhdate      "<date>May 25 2020</date>">
   <!-- SECTION should be 1-8, maybe w/ subsection other parameters are
        allowed: see man(7), man(1). -->
   <!ENTITY dhsection   "<manvolnum>SECTION</manvolnum>">
-  <!ENTITY dhemail     "<email>root@localhost.localdomain</email>">
-  <!ENTITY dhusername  "root">
+  <!ENTITY dhemail     "<email>CybernetiX.S3C@gmail.com</email>">
+  <!ENTITY dhusername  "John Modica">
   <!ENTITY dhucpackage "<refentrytitle>Kali-db</refentrytitle>">
   <!ENTITY dhpackage   "kali-db">
 

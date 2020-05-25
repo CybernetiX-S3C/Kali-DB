@@ -1,4 +1,49 @@
- dpkg-buildpackage -us -uc -ui --no-lintian
-dpkg-buildpackage: error: unknown option or argument --no-lintian
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: info: source package kali-db
+dpkg-buildpackage: info: source version 1.0-1
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by John Modica <CybernetiX.S3C@gmail.com>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building kali-db using existing ./kali-db_1.0.orig.tar.xz
+dpkg-source: info: building kali-db in kali-db_1.0-1.debian.tar.xz
+dpkg-source: info: building kali-db in kali-db_1.0-1.dsc
+ debian/rules build
+dh build
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+ debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_icons
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'kali-db' in '../kali-db_1.0-1_all.deb'.
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../kali-db_1.0-1_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: full upload (original source is included)
+Now running lintian --no-lintian kali-db_1.0-1_amd64.changes ...
+Unknown option: no-lintian
+error parsing options
 
-Use --help for program usage information.
+Finished running lintian.

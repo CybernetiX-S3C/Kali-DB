@@ -1,8 +1,8 @@
 Package: kali-db
 Version: 1.0-1
 Architecture: all
-Maintainer: root <root@localhost.localdomain>
-Installed-Size: 13
+Maintainer: John Modica <CybernetiX.S3C@gmail.com>
+Installed-Size: 59
 Section: unknown
 Priority: optional
 Homepage: <insert the upstream URL, if relevant>

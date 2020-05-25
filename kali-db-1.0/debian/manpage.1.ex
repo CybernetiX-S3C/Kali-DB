@@ -1,10 +1,10 @@
 .\"                                      Hey, EMACS: -*- nroff -*-
-.\" (C) Copyright 2020 root <root@localhost.localdomain>,
+.\" (C) Copyright 2020 John Modica <CybernetiX.S3C@gmail.com>,
 .\"
 .\" First parameter, NAME, should be all caps
 .\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
 .\" other parameters are allowed: see man(7), man(1)
-.TH Kali-db SECTION "May 23 2020"
+.TH Kali-db SECTION "May 25 2020"
 .\" Please adjust this date whenever revising the manpage.
 .\"
 .\" Some roff macros, for reference:

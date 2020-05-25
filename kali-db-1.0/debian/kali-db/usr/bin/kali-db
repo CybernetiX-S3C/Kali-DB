@@ -1,56 +1,74 @@
 #!/bin/bash
 ## by John Modica 
 ### @CybernetiX S3C
+
+
 HEIGHT=15
 WIDTH=40
-CHOICE_HEIGHT=4
+CHOICE_HEIGHT=10
 BACKTITLE="Kali Linux DB Update Menu"
 TITLE="Kali Update Menu"
 MENU="Choose one of the following options:"
 
-OPTIONS=(1 "Update"
-         2 "Upgrade"
-         3 "Full Upgrade"
-         4 "Edit Sources"
-         5 "Quit")
+
+OPTIONS1=(1 "Update Menu"
+         2 "Kali System Metapackages"
+         3 "Kali Menu Metapackages"
+         4 "Kali Tools Metapackages"
+         5 "Kali Misc Metapackages"
+         6 "Kali Courses Metapackages"
+         7 "Kali Desktop Managers"
+         8 "Quit")
+
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
                 --title "$TITLE" \
                 --menu "$MENU" \
                 $HEIGHT $WIDTH $CHOICE_HEIGHT \
-                "${OPTIONS[@]}" \
+                "${OPTIONS1[@]}" \
                 2>&1 >/dev/tty)
 
 clear
+
 case $CHOICE in
+
         1)  
-            echo "Updating";
-            sleep 2 
-            sudo apt update;
-            sleep 1
-            kali-db;
+            echo "Update Menu";
+            sudo UMenu;
             ;;
+
         2)  
-            echo "Upgrading Files";
-            sleep 2
-            sudo apt upgrade -y;
-            sleep 1
-            kali-db;
+            echo "Kali System Metapackages";
+            sudo KSystem;
             ;;
+
         3)
-            echo "Upgrading System";
-            sleep 2
-            sudo apt full-upgrade -y;
-            sleep 1
-            kali-db;
+            echo "Kali Menu Metapackages";
+            sudo KMenu;
             ;;          
-        4) echo "Editing Sources. Press CTRL + X to save edits.";
-           sleep 2
-           apt edit-sources;
-           kali-db;
-           ;;
+
+        4)  
+            echo "Kali Tools Metapackages";
+            sudo KTools;
+            ;;
+
         5)  
-            echo "Done"
+            echo "Kali Misc Metapackages";
+            sudo KMisc;
+            ;;
+
+        6)
+            echo "Kali Courses Metapackages";
+            sudo KCourses;
+            ;;          
+
+        7)
+            echo "Kali Desktop Managers";
+            sudo KDesk;
+            ;;          
+
+        8) 
+           echo "Done"
+
 esac
- 

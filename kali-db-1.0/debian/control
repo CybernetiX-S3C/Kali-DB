@@ -1,7 +1,7 @@
 Source: kali-db
 Section: unknown
 Priority: optional
-Maintainer: root <root@localhost.localdomain>
+Maintainer: John Modica <CybernetiX.S3C@gmail.com>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.5.0
 Homepage: <insert the upstream URL, if relevant>
