@@ -9,5 +9,7 @@ git clone https://github.com/CybernetiX-S3C/Kali-DB
 
 cd Kali-DB
 
-./INSTALL
+dpkg -i kali-db*.deb
+
+kali-db
 ``
