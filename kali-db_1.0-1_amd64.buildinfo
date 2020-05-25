@@ -4,17 +4,17 @@ Binary: kali-db
 Architecture: all source
 Version: 1.0-1
 Checksums-Md5:
- bad2f3b649e239007870bf6235c443ff 822 kali-db_1.0-1.dsc
- 5595a0adf2e362706e8d37872e0f555c 13352 kali-db_1.0-1_all.deb
+ c76c60acedec3378ba332e1e2313c183 822 kali-db_1.0-1.dsc
+ 2ac1bbcf384c2d11c41f87d412e1a6e8 13360 kali-db_1.0-1_all.deb
 Checksums-Sha1:
- ca9ef904908242c3f6c4a2556a09c4e97d041d2f 822 kali-db_1.0-1.dsc
- 6af260baeb90cbdd03e88caf7b8ac2851c68355a 13352 kali-db_1.0-1_all.deb
+ 6dc1c7f57794be7aab0c97e885ebe96df4bd22a8 822 kali-db_1.0-1.dsc
+ d741944d7fa87e35e12a2a9ebe146179acf48ceb 13360 kali-db_1.0-1_all.deb
 Checksums-Sha256:
- a02ea4b26457b73163df5822b430172dc3e95d415411ce4ff48d11197fdfc564 822 kali-db_1.0-1.dsc
- 288800ea8d89817ce9fcd375f4751c35e9df77b37036c4620bc31cf5da4b6436 13352 kali-db_1.0-1_all.deb
+ 62e646b74d7f84afe3cf17a135aeebf3249a3e94a4f7ddd8cf6cd730f51d8c4a 822 kali-db_1.0-1.dsc
+ 6ffeb7ff45379205f1a1ca11f3b4644091c9b673bf5e71102a7694b044bd2461 13360 kali-db_1.0-1_all.deb
 Build-Origin: Kali
 Build-Architecture: amd64
-Build-Date: Mon, 25 May 2020 16:49:34 -0400
+Build-Date: Mon, 25 May 2020 17:25:59 -0400
 Build-Tainted-By:
  usr-local-has-configs
  usr-local-has-includes
@@ -206,4 +206,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1590439730"
+ SOURCE_DATE_EPOCH="1590441877"

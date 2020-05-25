@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Mon, 25 May 2020 16:48:50 -0400
+Date: Mon, 25 May 2020 17:24:37 -0400
 Source: kali-db
 Binary: kali-db
 Architecture: source all
@@ -15,20 +15,20 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- ca9ef904908242c3f6c4a2556a09c4e97d041d2f 822 kali-db_1.0-1.dsc
- 5dbbac0b73f8f10eb3c685a10494235a2ede2d10 1160468 kali-db_1.0.orig.tar.xz
- b4ce5bd46fec36628beacc4b4274479894dce987 8012 kali-db_1.0-1.debian.tar.xz
- 6af260baeb90cbdd03e88caf7b8ac2851c68355a 13352 kali-db_1.0-1_all.deb
- f25006c9326adec6cab5e8f05c203fcdc34608f8 5698 kali-db_1.0-1_amd64.buildinfo
+ 6dc1c7f57794be7aab0c97e885ebe96df4bd22a8 822 kali-db_1.0-1.dsc
+ 8ddf44d054aff588190e5aaa18cacc63cc53594f 1160512 kali-db_1.0.orig.tar.xz
+ 083c75243e3c9bd585b2d560698f5f1c843561da 8008 kali-db_1.0-1.debian.tar.xz
+ d741944d7fa87e35e12a2a9ebe146179acf48ceb 13360 kali-db_1.0-1_all.deb
+ 32ee92f180943e98383749a88b565b2413763421 5698 kali-db_1.0-1_amd64.buildinfo
 Checksums-Sha256:
- a02ea4b26457b73163df5822b430172dc3e95d415411ce4ff48d11197fdfc564 822 kali-db_1.0-1.dsc
- 41aa3a6748cb75609d1aa36222dacab8c534ae4275ba396ca30cc7a77e64c796 1160468 kali-db_1.0.orig.tar.xz
- 4d20c3e2c54a11d55f74588182abab5b49956a936d4b194ae1066b9d73e41d00 8012 kali-db_1.0-1.debian.tar.xz
- 288800ea8d89817ce9fcd375f4751c35e9df77b37036c4620bc31cf5da4b6436 13352 kali-db_1.0-1_all.deb
- 2b31a109cb866dbaed4ba8eb542c8d35886735cad989ebeffb5c1c0a0146baa4 5698 kali-db_1.0-1_amd64.buildinfo
+ 62e646b74d7f84afe3cf17a135aeebf3249a3e94a4f7ddd8cf6cd730f51d8c4a 822 kali-db_1.0-1.dsc
+ 07334d08094a40438456bcf3c660932f9394c2f23406faf57888756360922a5d 1160512 kali-db_1.0.orig.tar.xz
+ 5faa91cfbb854de965c90f8e7f7e13fbe44b6d4f6b518336d19c0e7571953bbe 8008 kali-db_1.0-1.debian.tar.xz
+ 6ffeb7ff45379205f1a1ca11f3b4644091c9b673bf5e71102a7694b044bd2461 13360 kali-db_1.0-1_all.deb
+ 7b3c13b6836d653473c13315cad0e06705491fe1c3bcf9d435c5259117d709eb 5698 kali-db_1.0-1_amd64.buildinfo
 Files:
- bad2f3b649e239007870bf6235c443ff 822 unknown optional kali-db_1.0-1.dsc
- 8e9c0286d4ce972fbdf06a1b8a2fc3c1 1160468 unknown optional kali-db_1.0.orig.tar.xz
- 4940dadf1188c9047d27ee5a5aa97f2d 8012 unknown optional kali-db_1.0-1.debian.tar.xz
- 5595a0adf2e362706e8d37872e0f555c 13352 unknown optional kali-db_1.0-1_all.deb
- 6f1c1dc5c0176b9c7ca053762e0c8060 5698 unknown optional kali-db_1.0-1_amd64.buildinfo
+ c76c60acedec3378ba332e1e2313c183 822 unknown optional kali-db_1.0-1.dsc
+ 692ca50f95b627a9b73ef34448fc64e6 1160512 unknown optional kali-db_1.0.orig.tar.xz
+ 57543e8cd154fe1c3ebb777bfd0caaac 8008 unknown optional kali-db_1.0-1.debian.tar.xz
+ 2ac1bbcf384c2d11c41f87d412e1a6e8 13360 unknown optional kali-db_1.0-1_all.deb
+ 0b3f705aa6a241c5ce07990766bb4f85 5698 unknown optional kali-db_1.0-1_amd64.buildinfo

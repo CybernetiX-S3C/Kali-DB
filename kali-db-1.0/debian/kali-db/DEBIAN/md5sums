@@ -6,10 +6,10 @@ bbdf6cc742c52b60dc1a0d0f41124fa6  usr/bin/KMisc
 fd7713db9a81a707b92989b9be675ed4  usr/bin/KTools
 70be0c339c241679de71a6b0eaacc02a  usr/bin/UMenu
 d7fb7903036ee3bd0e75017581e84197  usr/bin/kali-db
-b0e168381a86c7e20996b9e5b40f46b2  usr/share/doc/kali-db/README.Debian
-3e9f5e09fedff511060165b1d0ce775a  usr/share/doc/kali-db/changelog.Debian.gz
+732c8bf323ef0e90e9a6100fd7207284  usr/share/doc/kali-db/README.Debian
+1f0be41c1d4d6e28a33ec788e91b5501  usr/share/doc/kali-db/changelog.Debian.gz
 66990bfd5a50870ee4f9c71ab46c6828  usr/share/doc/kali-db/copyright
 7e6b5f3d995bbd95b91fe899fe62163c  usr/share/icons/hicolor/48x48/apps/kali-db1.png
 2568d79c833b8a6a972cc61c9db65314  usr/share/icons/hicolor/scalable/apps/kali-db1.svg
 e4cbe7ab59618cef122f0042508e09a1  usr/share/pixmaps/kali-db1.xpm
-ba8291fb52080082eda9a8b5d4e89e2a  ~/.local/share/applications/kali-db.desktop
+dc907e7cc44f6232a3592fd8d3e1a0df  ~/.local/share/applications/kali-db.desktop
